@@ -33,24 +33,27 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginHorizontal="10dp"
-            tools:srcCompat="@tools:sample/avatars"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_ca" />
 
         <ImageView
             android:id="@+id/Flag2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginHorizontal="10dp"
-            tools:srcCompat="@tools:sample/avatars"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_eg" />
 
         <ImageView
             android:id="@+id/Flag3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginHorizontal="10dp"
-            tools:srcCompat="@tools:sample/avatars"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_fr" />
     </LinearLayout>
 
     <LinearLayout
@@ -67,25 +70,28 @@
             android:id="@+id/Flag4"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            tools:srcCompat="@tools:sample/avatars"
             android:layout_marginHorizontal="10dp"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_jp" />
 
         <ImageView
             android:id="@+id/Flag5"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            tools:srcCompat="@tools:sample/avatars"
             android:layout_marginHorizontal="10dp"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_kr" />
 
         <ImageView
             android:id="@+id/Flag6"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            tools:srcCompat="@tools:sample/avatars"
             android:layout_marginHorizontal="10dp"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -101,24 +107,27 @@
             android:id="@+id/Flag7"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            tools:srcCompat="@tools:sample/avatars"
             android:layout_marginHorizontal="10dp"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_tr" />
 
         <ImageView
             android:id="@+id/Flag8"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginHorizontal="10dp"
-            tools:srcCompat="@tools:sample/avatars"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_uk" />
 
         <ImageView
             android:id="@+id/Flag9"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginHorizontal="10dp"
-            tools:srcCompat="@tools:sample/avatars"
-            android:onClick="SelectTeamIcon"/>
+            android:contentDescription="flag"
+            android:onClick="SelectTeamIcon"
+            tools:srcCompat="@drawable/flag_us" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
