@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
     // linked to the image in the XML
     public void GoToProfileSelect(View view){
-        Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
-        startActivity(intent);
+        Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+        profileActivityResultLauncher.launch(intent);
     }
 
     // linked to the button in the XML
